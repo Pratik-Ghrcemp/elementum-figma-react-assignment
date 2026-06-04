@@ -1,54 +1,83 @@
-# Elementum Assignment
+# Elementum Landing Page
 
-A responsive React implementation of the Elementum landing page based on the provided Figma design. The page is built with reusable section components, responsive CSS, and Vite for a fast development workflow.
+A responsive React landing page developed from the provided Figma assignment design. The implementation focuses on design accuracy, clean component structure, responsive behavior, and production-ready Vite setup.
 
 ## Live Demo
 
-Vercel: Add your deployed project link here
+Vercel: Add your live deployment link here
 
 ## Preview
 
 ![Elementum landing page preview](./actual-current.png)
 
-## Figma Reference
+## Design Reference
 
-[Assignment Design](https://www.figma.com/design/0K35IOZ4Qwqur0b9o2PXlN/Assignment?node-id=0-1&t=Tdq2Ng34b481G6aS-1)
+[View Figma Design](https://www.figma.com/design/0K35IOZ4Qwqur0b9o2PXlN/Assignment?node-id=0-1&t=Tdq2Ng34b481G6aS-1)
 
-## Features
+## Overview
 
-- React-based landing page implementation
-- Responsive layout for mobile, tablet, and desktop screens
-- Reusable components for Navbar, Hero, Offerings, Progress, Testimonials, Newsletter, and Footer
-- Custom CSS for typography, spacing, colors, hover states, and layout details
-- Optimized Vite setup for development and production build
+This project converts the Elementum Figma design into a functional React webpage. The layout is divided into reusable sections and styled with custom CSS to match the original visual direction, including typography, spacing, imagery, decorative shapes, hover states, and responsive adjustments across screen sizes.
+
+## Key Highlights
+
+- Pixel-conscious implementation based on the supplied Figma design
+- Fully responsive layout for desktop, tablet, and mobile viewports
+- Reusable React components for each major page section
+- Organized component-level CSS for maintainable styling
+- Clean Vite project setup with fast local development and optimized production build
+- Interactive navigation menu and subtle hover states
+
+## Sections Implemented
+
+- Navbar
+- Hero section
+- Offerings section
+- Progress section
+- Testimonials section
+- Newsletter call-to-action
+- Footer
 
 ## Tech Stack
 
 - React
 - Vite
 - CSS3
+- JavaScript
 
 ## Project Structure
 
 ```text
-src/
-  assets/
-  components/
-    Footer.jsx
-    Hero.jsx
-    Navbar.jsx
-    Newsletter.jsx
-    Offerings.jsx
-    ProgressSection.jsx
-    Testimonials.jsx
-  App.jsx
-  main.jsx
-public/
-  favicon.svg
-  icons.svg
+elementum-landing-page/
+  public/
+    favicon.svg
+    icons.svg
+  src/
+    assets/
+    components/
+      Footer.jsx
+      Hero.jsx
+      Navbar.jsx
+      Newsletter.jsx
+      Offerings.jsx
+      ProgressSection.jsx
+      Testimonials.jsx
+    App.jsx
+    App.css
+    index.css
+    main.jsx
+  index.html
+  package.json
+  vite.config.js
 ```
 
 ## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/elementum-figma-react-assignment.git
+cd elementum-figma-react-assignment
+```
 
 Install dependencies:
 
@@ -74,38 +103,20 @@ Preview the production build locally:
 npm run preview
 ```
 
-## GitHub Upload Checklist
-
-Upload these files and folders:
-
-- `src/`
-- `public/`
-- `index.html`
-- `package.json`
-- `package-lock.json`
-- `vite.config.js`
-- `eslint.config.js`
-- `.gitignore`
-- `README.md`
-- `actual-current.png` if you want the screenshot to appear in this README
-
-Do not upload these:
-
-- `node_modules/`
-- `dist/`
-- `.env`
-- `.env.local`
-- editor/system files such as `.vscode/`, `.idea/`, `.DS_Store`
-
 ## Deployment
 
-This project can be deployed on Vercel directly from GitHub.
+The project is ready to deploy on Vercel.
 
-1. Push the repository to GitHub.
-2. Import the repository in Vercel.
-3. Keep the framework preset as Vite.
-4. Use `npm run build` as the build command.
-5. Use `dist` as the output directory.
+Recommended Vercel settings:
+
+- Framework Preset: `Vite`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+
+## Repository Notes
+
+The repository intentionally excludes generated and local-only files such as `node_modules`, `dist`, environment files, and editor settings. Required source files, public assets, and the README preview image are included.
 
 ## Author
 
