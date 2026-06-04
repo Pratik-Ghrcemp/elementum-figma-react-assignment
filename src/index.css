@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --display-font: 'Gruppo', 'Trebuchet MS', sans-serif;
+  --body-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ink: #000000;
+  --muted: #3f3f3f;
+  --mint: #dcefe4;
+  --coral: #ff6a70;
+  --purple: #9349e8;
+  --yellow: #f0c95f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #1c1d22;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #1c1d22;
+  color: var(--muted);
+  font-family: var(--body-font);
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0066cc;
+}
