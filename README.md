@@ -4,7 +4,7 @@ A responsive React landing page developed from the provided Figma assignment des
 
 ## Live Demo
 
-Vercel: Add your live deployment link here
+Vercel: [Add your live deployment link here](https://elementum-figma-react-assignment.vercel.app/)
 
 ## Preview
 
